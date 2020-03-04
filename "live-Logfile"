@@ -1,0 +1,4 @@
+#!/bin/bash
+
+Logfile=$ (ls -1tr --group-directories-first /sdcard/pcap/ | tail -n 1)
+echo $Logfile
