@@ -1,0 +1,1 @@
+FOR /f %%i IN (Proxys.txt) DO echo http://%%i >> proxys2.txt
