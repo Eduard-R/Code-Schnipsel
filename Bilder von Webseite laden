@@ -1,6 +1,6 @@
 #!/bin/bash
 for i in {1..318}
 do
-  url=$(printf http://www.archivdatenbank.lha-rlp.de/dbimages/00000067/0000AB91/004660AB-%03d.jpg $i)
+  url=$(printf http://www./URL/zu/den/Bildern.jpg $i)
   curl -O "${url}"
 done
